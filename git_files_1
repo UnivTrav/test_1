@@ -1,0 +1,37 @@
+
+git error log
+
+
+
+Kalyani Harshe@DESKTOP-164GKK2 MINGW64 ~/Documents/bepicolombo/code_matlab (master)
+$ git remote -v
+origin	https://s2e2.cosmos.esa.int/bitbucket/scm/spice_kernels/bepicolombo.git (fetch)
+origin	https://s2e2.cosmos.esa.int/bitbucket/scm/spice_kernels/bepicolombo.git (push)
+
+Kalyani Harshe@DESKTOP-164GKK2 MINGW64 ~/Documents/bepicolombo/code_matlab (master)
+$ git remote set-url origin https://github.com/UnivTrav/Flyby_1.git
+
+Kalyani Harshe@DESKTOP-164GKK2 MINGW64 ~/Documents/bepicolombo/code_matlab (master)
+$ git remote -v
+origin	https://github.com/UnivTrav/Flyby_1.git (fetch)
+origin	https://github.com/UnivTrav/Flyby_1.git (push)
+
+Kalyani Harshe@DESKTOP-164GKK2 MINGW64 ~/Documents/bepicolombo/code_matlab (master)
+$ git push
+ 
+If you are already inside the directory where your Git repository is located, 
+the following command will show you the path to the root of the Git repository:
+
+ git rev-parse --show-toplevel
+
+Setting Up push.autoSetupRemote
+Enable the Configuration
+You can enable push.autoSetupRemote globally (for all repositories) or locally (for a specific repository). Here’s how to do it:
+
+Globally
+To set this configuration for all your repositories, run the following command:
+git config --global push.autoSetupRemote true
+
+Locally
+To set this configuration for just the current repository, run:
+git config push.autoSetupRemote true
